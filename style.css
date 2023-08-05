@@ -3,10 +3,10 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("/assets/background.png");
-  background-size: cover; /* Skaliert das Bild, um den gesamten Bereich zu bedecken */
+  background-image: url("/assets/background3.png");
+  background-size: cover;
   background-position: 0% 0%;
-  background-repeat: no-repeat; /* Verhindert das Wiederholen des Bildes */
+  background-repeat: no-repeat;
   font-family: "Lato", sans-serif;
 }
 
@@ -51,7 +51,8 @@ svg {
 
 .btn:hover {
   transition: 1s ease-in-out;
-  background: #4f95da;
+  /*background: #4f95da;*/
+  background-color: rgba(79, 149, 218, 0.15);
 }
 
 .btn:hover svg {
