@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100&display=swap");
+
+html {
+  font-size: 16px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+body {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px rgb(250, 222, 165),
+    0 0 40px rgb(250, 222, 165), 0 0 60px black, 0 0 90px black, 0 0 120px black,
+    0 0 160px black;
+  margin: 0;
+  padding: 0;
+  background-image: url("/assets/background3.png");
+  background-size: cover;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+input {
+  background-color: rgb(250, 222, 165);
+  font-size: 25px;
+}
+
+textarea {
+  background-color: rgb(250, 222, 165);
+  font-size: 25px;
+}
